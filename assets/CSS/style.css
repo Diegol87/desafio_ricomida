@@ -1,0 +1,116 @@
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+
+.card-title {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    color: #373A3C;
+}
+
+.card-text {
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    font-weight: 700;
+}
+
+.borde {
+    border-top: 2px solid #000000;
+}
+
+.carousel-indicators {
+    top: 210px;
+}
+
+.carousel-indicators button.boton1 {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.boton1 {
+    background-color: #373A3C!important;
+}
+
+@media (max-width: 767px) {
+    .centrado {
+        text-align: center;
+    }
+}
+
+.carrusel {
+    width: 253px; height: 190px;
+}
+
+.carrusel1 {
+    border-bottom: 2px solid #000000;
+}
+
+@media (max-width: 1279px){
+    .carrusel1{
+    display:none
+    }
+    }
+
+    .ingredientes, .preparacion {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+    }
+
+    .titulo {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 500px){
+        .ingredientes, .preparacion{
+            width: 100%;
+        }
+    }
+
+    .fondo {
+        background-color: #DC3545;
+        color: #ffffff;
+        height: 534px;
+    }
+
+    .footer1 {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 700;
+    }
+
+    .footer2 {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+    }
+
+    .footer3 {
+        font-family: 'Lobster', cursive;
+        font-weight: 400;
+    }
+
+    .empezar {
+        padding: 0.5rem 6rem;
+    }
+
+    .fondo {
+        padding: 120px 0;
+    }
+
+   .fondo2 {
+       background-color: #373A3C;
+       color: #ffffff;
+       font-family: 'Lobster', cursive;
+       font-weight: 700;
+       height: 125px;
+   }
+
+   .ricacomida {
+       height: 125px;
+       padding: 50px 0;
+   }
+
+
+   
+
+   
