@@ -54,7 +54,7 @@
                 <h5 class="card-text fw-bold mt-4">110 MIN / 6 A 8 PORCIONES</h5>
                 </div>
                 <div class="col-12 mt-4 d-flex">
-                    <button type="button" class="btn btn-outline-dark me-4" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
+                    <button type="button" class="btn btn-outline-dark me-4" id="mensaje" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo">Enviar por correo</button>
                     <button type="button" class="btn btn-outline-dark" data-bs-toggle="tooltip" data-bs-placement="right" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
                 </div>
             </div>
@@ -62,6 +62,8 @@
         </div>
       </div>  
     </div>
+
+    
 
 <!--Agregamos el Carousel-->
 <div class="carrusel1 container my-4">
@@ -118,7 +120,7 @@
   <div class="carrusel1 container">
     <div class="row mt-5">
     <div class=" ingredientes col-6 mb-5">  
-      <h5 class="titulo fw-bold">INGREDIENTES</h5>
+      <h5 id="rojo" class="titulo fw-bold">INGREDIENTES</h5>
       <br>
       <p>Masa</p>
       <p class="mb-0">20 gr de levadura seca instantánea</p>
@@ -144,7 +146,7 @@
     </div>
 
       <div class="preparacion col-6 mb-5">  
-        <h5 class="titulo fw-bold">PREPARACIÓN</h5>
+        <h5 id="rojo1" class="titulo fw-bold">PREPARACIÓN</h5>
         <br>
         <p>1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.</p>
         <p>2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.</p>
@@ -165,8 +167,8 @@
         <div class="card h-100">
           <img src="/assets/img/recipe-card-1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-text">PANQUEQUES CON MANJAR Y CREMA</h5>
-            <p class="card-title">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+            <h5 id="card1" class="card-text">PANQUEQUES CON MANJAR Y CREMA</h5>
+            <p id="p1" class="card-title">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
           </div>
         </div>
       </div>
@@ -174,8 +176,8 @@
         <div class="card h-100">
           <img src="/assets/img/recipe-card-2.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-text">TIRAMISÚ</h5>
-            <p class="card-title">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+            <h5 id="card2" class="card-text">TIRAMISÚ</h5>
+            <p id="p2" class="card-title">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
           </div>
         </div>
       </div>
@@ -183,15 +185,15 @@
         <div class="card h-100">
           <img src="/assets/img/recipe-card-3.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-text">PLATEADA</h5>
-            <p class="card-title">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+            <h5 id="card3" class="card-text">PLATEADA</h5>
+            <p id="p3" class="card-title">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!--Aquí vamos a colocar el footer-->
+  <!--Aquí vamos a colocar el footer (ya había creado este código antes de que nos indicaran la página de typeform, y entendiendo que para estos formularios lo tendriamos que escribir preferì dejarlo asì, de todas maneras interactué con la página de typwform)-->
       <div class="fondo container-fluid text-center">
         <h1 class="footer1">SUSCRÍBETE EN NUESTROS NEWSLETTER</h1>
         <h3 class="footer2">y obtén las mejores recetas que tenemos en</h3>
